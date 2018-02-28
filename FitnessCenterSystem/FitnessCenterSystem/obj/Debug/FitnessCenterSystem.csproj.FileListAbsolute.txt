@@ -1,0 +1,14 @@
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\bin\FitnessCenterSystem.dll
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\bin\FitnessCenterSystem.pdb
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\obj\Debug\FitnessCenterSystem.dll
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\obj\Debug\FitnessCenterSystem.pdb
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\bin\Microsoft.ScriptManager.jQuery.dll
+E:\ASP.net实训项目\FitnessCenterSystem\FitnessCenterSystem\obj\Debug\FitnessCenterSystem.csprojResolveAssemblyReference.cache
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\bin\FitnessCenterSystem.dll
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\bin\FitnessCenterSystem.pdb
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\bin\Microsoft.ScriptManager.jQuery.dll
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\obj\Debug\FitnessCenterSystem.csprojResolveAssemblyReference.cache
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\obj\Debug\FitnessCenterSystem.dll
+E:\ASP.net实训项目\张汝聪、郑树凡、叶培俊、张蔚源\FitnessCenterSystem\FitnessCenterSystem\obj\Debug\FitnessCenterSystem.pdb

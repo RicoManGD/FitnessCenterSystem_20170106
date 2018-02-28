@@ -1,0 +1,2 @@
+<script src="date/WdatePicker.js"></script>
+<asp:TextBox ID="TextBox1" Class="Wdate" onfocus="WdatePicker({lang:'zh-cn'})" runat="server" Width="174px"></asp:TextBox>

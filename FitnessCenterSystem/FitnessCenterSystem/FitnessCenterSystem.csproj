@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF86C06F-23B9-4854-B0CB-F0FBDB811F12}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FitnessCenterSystem</RootNamespace>
+    <AssemblyName>FitnessCenterSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.8.3\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ScriptManager.jQuery">
+      <HintPath>..\packages\Microsoft.ScriptManager.jQuery.1.7.2.1\lib\net40\Microsoft.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="addCourse.aspx" />
+    <Content Include="CoachHonor.aspx" />
+    <Content Include="coAlter.aspx" />
+    <Content Include="coIndex.aspx" />
+    <Content Include="coLeft.aspx" />
+    <Content Include="costuLesson.aspx" />
+    <Content Include="coTeach.aspx" />
+    <Content Include="CourseIntroduction.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="curArrange.aspx" />
+    <Content Include="date\calendar.js" />
+    <Content Include="date\lang\en.js" />
+    <Content Include="date\lang\zh-cn.js" />
+    <Content Include="date\lang\zh-tw.js" />
+    <Content Include="date\skin\datePicker.gif" />
+    <Content Include="date\skin\default\datepicker.css" />
+    <Content Include="date\skin\default\img.gif" />
+    <Content Include="date\skin\WdatePicker.css" />
+    <Content Include="date\skin\whyGreen\bg.jpg" />
+    <Content Include="date\skin\whyGreen\datepicker.css" />
+    <Content Include="date\skin\whyGreen\img.gif" />
+    <Content Include="date\WdatePicker.js" />
+    <Content Include="date\开发包\lang\en.js" />
+    <Content Include="date\开发包\lang\zh-cn.js" />
+    <Content Include="date\开发包\lang\zh-tw.js" />
+    <Content Include="date\开发包\readme.txt" />
+    <Content Include="date\开发包\skin\datePicker.gif" />
+    <Content Include="date\开发包\skin\default\datepicker.css" />
+    <Content Include="date\开发包\skin\default\img.gif" />
+    <Content Include="date\开发包\skin\WdatePicker.css" />
+    <Content Include="date\开发包\skin\whyGreen\bg.jpg" />
+    <Content Include="date\开发包\skin\whyGreen\datepicker.css" />
+    <Content Include="date\开发包\skin\whyGreen\img.gif" />
+    <Content Include="DetailCur.aspx" />
+    <Content Include="FitnessCenterPro.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\0001.jpg" />
+    <Content Include="images\0002.jpg" />
+    <Content Include="images\0003.jpg" />
+    <Content Include="images\0004.jpg" />
+    <Content Include="images\0005.jpg" />
+    <Content Include="images\15230111.jpg" />
+    <Content Include="images\15230123.jpg" />
+    <Content Include="images\15230124.jpg" />
+    <Content Include="images\15230125.jpg" />
+    <Content Include="images\15230222.jpg" />
+    <Content Include="images\15230333.jpg" />
+    <Content Include="images\15230444.jpg" />
+    <Content Include="images\15230452.jpg" />
+    <Content Include="images\15230480.jpg" />
+    <Content Include="images\15230523.jpg" />
+    <Content Include="images\15230555.jpg" />
+    <Content Include="images\15230731.jpg" />
+    <Content Include="images\15230741.jpg" />
+    <Content Include="images\15230879.jpg" />
+    <Content Include="images\15230944.jpg" />
+    <Content Include="images\15230962.jpg" />
+    <Content Include="images\15230963.jpg" />
+    <Content Include="images\loginBG.jpg" />
+    <Content Include="images\topbj777.jpg" />
+    <Content Include="images\topl.png" />
+    <Content Include="MAAcoach.aspx" />
+    <Content Include="myMAA.aspx" />
+    <Content Include="stuAlter.aspx" />
+    <Content Include="stuIndex.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="stuLeft.aspx" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <None Include="Scripts\jquery-1.8.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.3.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="stuLesson.aspx" />
+    <Content Include="stuMessage.aspx" />
+    <Content Include="Top.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="RegisterPage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addCourse.aspx.cs">
+      <DependentUpon>addCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addCourse.aspx.designer.cs">
+      <DependentUpon>addCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoachHonor.aspx.cs">
+      <DependentUpon>CoachHonor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoachHonor.aspx.designer.cs">
+      <DependentUpon>CoachHonor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coAlter.aspx.cs">
+      <DependentUpon>coAlter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coAlter.aspx.designer.cs">
+      <DependentUpon>coAlter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coIndex.aspx.cs">
+      <DependentUpon>coIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coIndex.aspx.designer.cs">
+      <DependentUpon>coIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coLeft.aspx.cs">
+      <DependentUpon>coLeft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coLeft.aspx.designer.cs">
+      <DependentUpon>coLeft.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="costuLesson.aspx.cs">
+      <DependentUpon>costuLesson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="costuLesson.aspx.designer.cs">
+      <DependentUpon>costuLesson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coTeach.aspx.cs">
+      <DependentUpon>coTeach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coTeach.aspx.designer.cs">
+      <DependentUpon>coTeach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseIntroduction.aspx.cs">
+      <DependentUpon>CourseIntroduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseIntroduction.aspx.designer.cs">
+      <DependentUpon>CourseIntroduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="curArrange.aspx.cs">
+      <DependentUpon>curArrange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="curArrange.aspx.designer.cs">
+      <DependentUpon>curArrange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailCur.aspx.cs">
+      <DependentUpon>DetailCur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailCur.aspx.designer.cs">
+      <DependentUpon>DetailCur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FitnessCenterPro.aspx.cs">
+      <DependentUpon>FitnessCenterPro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FitnessCenterPro.aspx.designer.cs">
+      <DependentUpon>FitnessCenterPro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MAAcoach.aspx.cs">
+      <DependentUpon>MAAcoach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MAAcoach.aspx.designer.cs">
+      <DependentUpon>MAAcoach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myMAA.aspx.cs">
+      <DependentUpon>myMAA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myMAA.aspx.designer.cs">
+      <DependentUpon>myMAA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuAlter.aspx.cs">
+      <DependentUpon>stuAlter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuAlter.aspx.designer.cs">
+      <DependentUpon>stuAlter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuIndex.aspx.cs">
+      <DependentUpon>stuIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuIndex.aspx.designer.cs">
+      <DependentUpon>stuIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuLeft.aspx.cs">
+      <DependentUpon>stuLeft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuLeft.aspx.designer.cs">
+      <DependentUpon>stuLeft.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlHelp\SqlHelper.cs" />
+    <Compile Include="SqlHelp\CommandInfo.cs" />
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterPage.aspx.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterPage.aspx.designer.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuLesson.aspx.cs">
+      <DependentUpon>stuLesson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuLesson.aspx.designer.cs">
+      <DependentUpon>stuLesson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuMessage.aspx.cs">
+      <DependentUpon>stuMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuMessage.aspx.designer.cs">
+      <DependentUpon>stuMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>45001</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:32191/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
